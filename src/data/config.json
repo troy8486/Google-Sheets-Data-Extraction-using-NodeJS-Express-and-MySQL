@@ -1,0 +1,30 @@
+{
+  "google_sheet_id": "1GPeoM2NXKGGI1KZDE_EUuuoTsROTqNm-eY1Z2nKPDaU",
+  "host": "localhost",
+  "password": "",
+  "database": "revenue",
+  "user": "root",
+  "table": "REVENUE_DATA",
+  "sheetname": "Sheet1",
+  "range": "A:C",
+  "columns": [
+    {
+      "sheet_column_name": "A",
+      "db_column_name": "date",
+      "db_data_type": "string",
+      "part_of_uniqueness": true
+    },
+    {
+      "sheet_column_name": "B",
+      "db_column_name": "country",
+      "db_data_type": "string",
+      "part_of_uniqueness": true
+    },
+    {
+      "sheet_column_name": "B",
+      "db_column_name": "revenue",
+      "db_data_type": "integer",
+      "part_of_uniqueness": false
+    }
+  ]
+}
